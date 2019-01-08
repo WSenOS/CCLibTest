@@ -18,5 +18,8 @@
     NSLog(@"新版本");
 }
 
++ (void)thirdTest {
+    NSLog(@"1.0.3版本");
+}
 
 @end
