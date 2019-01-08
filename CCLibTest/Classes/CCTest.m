@@ -14,4 +14,9 @@
     NSLog(@"私有库测试");
 }
 
++ (void)updateTest {
+    NSLog(@"新版本");
+}
+
+
 @end

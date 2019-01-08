@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)test;
 
++ (void)updateTest;
+
 @end
 
 NS_ASSUME_NONNULL_END
