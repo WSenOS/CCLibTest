@@ -40,7 +40,7 @@
 		20598E3FE196B4EE72A2EE94 /* Pods_CCLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F31B2DFB0F2D42C2AA31423 /* Pods_CCLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEA8965A0FB828869121185 /* Pods-CCLibTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCLibTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCLibTest_Tests/Pods-CCLibTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		500B8942B2CD8032A0DD8B71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		500B8942B2CD8032A0DD8B71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CCLibTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLibTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B5A8F534FD85C205852F4C9 /* CCLibTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCLibTest.podspec; path = ../CCLibTest.podspec; sourceTree = "<group>"; };
+		6B5A8F534FD85C205852F4C9 /* CCLibTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCLibTest.podspec; path = ../CCLibTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		790AF4079182A9AA5BA557EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		790AF4079182A9AA5BA557EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A083F6A4E014359F3DED598B /* Pods-CCLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCLibTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCLibTest_Example/Pods-CCLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A248FBD2794F5BC661308951 /* Pods-CCLibTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCLibTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCLibTest_Tests/Pods-CCLibTest_Tests.release.xcconfig"; sourceTree = "<group>"; };

@@ -1,0 +1,6 @@
+framework module CCLibTest {
+  umbrella header "CCLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

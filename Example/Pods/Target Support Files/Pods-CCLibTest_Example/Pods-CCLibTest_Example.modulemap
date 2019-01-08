@@ -1,0 +1,6 @@
+framework module Pods_CCLibTest_Example {
+  umbrella header "Pods-CCLibTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
