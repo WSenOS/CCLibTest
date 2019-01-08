@@ -22,4 +22,9 @@
     NSLog(@"1.0.3版本");
 }
 
++ (void)version2dot0dot0 {
+    NSLog(@"2.0版本");
+}
+
+
 @end

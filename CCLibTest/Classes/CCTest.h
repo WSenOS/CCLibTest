@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)thirdTest;
 
++ (void)version2dot0dot0;
+
 @end
 
 NS_ASSUME_NONNULL_END
