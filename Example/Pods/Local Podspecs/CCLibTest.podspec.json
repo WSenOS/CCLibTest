@@ -21,11 +21,16 @@
   "source_files": "CCLibTest/Classes/**/*",
   "resource_bundles": {
     "CCLibTest": [
-      "CCLibTest/Assets/*.png"
+      "CCLibTest/Assets/*"
     ]
   },
   "frameworks": [
     "UIKit",
     "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "xml2"
   ]
 }
