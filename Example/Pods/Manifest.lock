@@ -1,5 +1,5 @@
 PODS:
-  - CCLibTest (2.0.1)
+  - CCLibTest (2.0.2)
 
 DEPENDENCIES:
   - CCLibTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CCLibTest: ac18c3a29902a676eecb77fc206084045f6e8ce1
+  CCLibTest: ebefd888b503b96eef786c86ac6ea228661d6a75
 
 PODFILE CHECKSUM: 661f28ad859767a7ae6261c4ec61c5713b86b772
 
