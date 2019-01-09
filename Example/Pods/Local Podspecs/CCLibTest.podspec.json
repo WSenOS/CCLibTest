@@ -23,5 +23,9 @@
     "CCLibTest": [
       "CCLibTest/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }
