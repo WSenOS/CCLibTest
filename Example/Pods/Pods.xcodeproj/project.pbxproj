@@ -13,8 +13,6 @@
 		4838735E2B73E6F8B9697EAC4F4CAA46 /* Pods-CCLibTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB026381098AC89B50F168B9E39341C /* Pods-CCLibTest_Example-dummy.m */; };
 		4BA44B7AE63D2AE6B048B4EFCA3D0715 /* CCTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3F13B180B187B4E8DDD3F7FD1EFD46 /* CCTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB631A71D4AEED58F73DDF28C7E1ACF /* Pods-CCLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 468F262CEB6FC40988751DC8301B3BF0 /* Pods-CCLibTest_Tests-dummy.m */; };
-		5DD39023C5A73E1DB1E60A525CC7AA6F /* CCTestController.xib in Sources */ = {isa = PBXBuildFile; fileRef = E024AF54BF0D84D4F0D17C1402F97706 /* CCTestController.xib */; };
-		678EF0EC2FACFA4613284E35511D7F59 /* CCTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E020E3092E57DE7793A03017E7B5E4C8 /* CCTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B1FE88AC86DC7EDC7F86A1F257E7EFC /* CCLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93195B5B7E76C2DB9977212D02B4CF23 /* CCLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1AE6CD180F4D31A94335793CDD0268C /* CCLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27919C97500BC70A7D0586FCE233938B /* CCLibTest-dummy.m */; };
 		B6C6B801942DB8C394A6B47374CFCA43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -23,7 +21,6 @@
 		D245832E6BEA8D3FDD5078B981ABA1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DBC2D874F5B58C4DF9AF386B1DE6F5E5 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE4619F9667CDA7C2CA62C0DCA0A51 /* CCTest.m */; };
 		F80534994DA3B59534C2D10740B8487A /* bbb.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C7B83B3E3CF7B6BEA7F60C02894DFA /* bbb.png */; };
-		FB88C39A6FB46F7050FAE00041ABB4A5 /* CCTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696729AFB94FDA9711635F4DA4A8AE6F /* CCTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +49,9 @@
 
 /* Begin PBXFileReference section */
 		0BCB99A4FAB1978B6879F074E665A91A /* Pods-CCLibTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCLibTest_Example-resources.sh"; sourceTree = "<group>"; };
-		17F2A2649C0B4A964CEA725F578952A2 /* CCLibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CCLibTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17F2A2649C0B4A964CEA725F578952A2 /* CCLibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CCLibTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1822CED6001035789A0D4C1DA205B208 /* Pods-CCLibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCLibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1ACFACAF350B8903F0EC14FC54280D3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1ACFACAF350B8903F0EC14FC54280D3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		267EF2F801996B848E205C96514262AE /* Pods-CCLibTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCLibTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27919C97500BC70A7D0586FCE233938B /* CCLibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCLibTest-dummy.m"; sourceTree = "<group>"; };
 		2AB026381098AC89B50F168B9E39341C /* Pods-CCLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCLibTest_Example-dummy.m"; sourceTree = "<group>"; };
@@ -63,7 +60,7 @@
 		468F262CEB6FC40988751DC8301B3BF0 /* Pods-CCLibTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCLibTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		4B7A7C304EE63323A69B0F7476DECB1D /* Pods-CCLibTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCLibTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4D35BD88AABBB2438F355CD847146692 /* CCLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCLibTest-prefix.pch"; sourceTree = "<group>"; };
-		563A0652D66E614A05CA94DFC629991E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		563A0652D66E614A05CA94DFC629991E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A3F13B180B187B4E8DDD3F7FD1EFD46 /* CCTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCTest.h; path = CCLibTest/Classes/CCTest.h; sourceTree = "<group>"; };
 		5B1138E56337F384E0B7F4FD540B499A /* ResourceBundle-CCLibTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CCLibTest-Info.plist"; sourceTree = "<group>"; };
@@ -72,25 +69,22 @@
 		6594D260AA29EB2E18F89E5D4C3B33E8 /* Pods-CCLibTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCLibTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		65C62ABD3593E8F8AA19CE17385933FF /* Pods-CCLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		664FF02BB993C5DD579871C2CA2DFA58 /* aaa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = aaa.png; path = CCLibTest/Assets/aaa.png; sourceTree = "<group>"; };
-		696729AFB94FDA9711635F4DA4A8AE6F /* CCTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCTestController.m; path = CCLibTest/Classes/CCTestController.m; sourceTree = "<group>"; };
 		7DDBE181263ACE2E6C62AD07D0685CD9 /* Pods-CCLibTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCLibTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8405F58A47C4E4A3DAD01DE94C79880A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDC07B099C16FCBDE71F69F528F65F4 /* Pods-CCLibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8E9589FE62520BB3BF858E929EB6675E /* Pods-CCLibTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCLibTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93195B5B7E76C2DB9977212D02B4CF23 /* CCLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCLibTest-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BEE4619F9667CDA7C2CA62C0DCA0A51 /* CCTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCTest.m; path = CCLibTest/Classes/CCTest.m; sourceTree = "<group>"; };
 		A0C7B83B3E3CF7B6BEA7F60C02894DFA /* bbb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bbb.png; path = CCLibTest/Assets/bbb.png; sourceTree = "<group>"; };
 		B535A142EC95177F3FD3109D2F0071C4 /* Pods-CCLibTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLibTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BA16D650FA6D49B53C64E487F4DD1A95 /* CCLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCLibTest.framework; path = CCLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1EF9067FB9C42C6D6CF5025B312A026 /* Pods_CCLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCLibTest_Tests.framework; path = "Pods-CCLibTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA16D650FA6D49B53C64E487F4DD1A95 /* CCLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EF9067FB9C42C6D6CF5025B312A026 /* Pods_CCLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63C7C60AFA6F02FA17A1FF57B47DB57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C67CE6B03870C5A920FD7DF50CC0AF7B /* CCLibTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CCLibTest.bundle; path = "CCLibTest-CCLibTest.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6915B6E1397E0E28EFF10388D77E25A /* Pods_CCLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCLibTest_Example.framework; path = "Pods-CCLibTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67CE6B03870C5A920FD7DF50CC0AF7B /* CCLibTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLibTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6915B6E1397E0E28EFF10388D77E25A /* Pods_CCLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4FCD6FDB22006297BAFE5D7E8879A0 /* Pods-CCLibTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCLibTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DE12079073D7A196084FCCE59144BCD1 /* Pods-CCLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCLibTest_Tests.modulemap"; sourceTree = "<group>"; };
-		E020E3092E57DE7793A03017E7B5E4C8 /* CCTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCTestController.h; path = CCLibTest/Classes/CCTestController.h; sourceTree = "<group>"; };
-		E024AF54BF0D84D4F0D17C1402F97706 /* CCTestController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CCTestController.xib; path = CCLibTest/Classes/CCTestController.xib; sourceTree = "<group>"; };
 		E603509DE63B51E5C435F976E67E7294 /* Pods-CCLibTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCLibTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		EAE3B48037F5677D7DDE8F12485730C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E1C5818D45C1EA08E79492BEECA07C /* CCLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCLibTest.xcconfig; sourceTree = "<group>"; };
@@ -214,9 +208,6 @@
 			children = (
 				5A3F13B180B187B4E8DDD3F7FD1EFD46 /* CCTest.h */,
 				9BEE4619F9667CDA7C2CA62C0DCA0A51 /* CCTest.m */,
-				E020E3092E57DE7793A03017E7B5E4C8 /* CCTestController.h */,
-				696729AFB94FDA9711635F4DA4A8AE6F /* CCTestController.m */,
-				E024AF54BF0D84D4F0D17C1402F97706 /* CCTestController.xib */,
 				E5ACE943850E9B04FB1BFC33DD51030C /* Pod */,
 				68CD0225C23CE65E891DDA4CCC6DE14A /* Resources */,
 				49B1C11568AB879E2BC2E23FB06D05CB /* Support Files */,
@@ -281,7 +272,6 @@
 			files = (
 				9B1FE88AC86DC7EDC7F86A1F257E7EFC /* CCLibTest-umbrella.h in Headers */,
 				4BA44B7AE63D2AE6B048B4EFCA3D0715 /* CCTest.h in Headers */,
-				678EF0EC2FACFA4613284E35511D7F59 /* CCTestController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,8 +461,6 @@
 			files = (
 				B1AE6CD180F4D31A94335793CDD0268C /* CCLibTest-dummy.m in Sources */,
 				DBC2D874F5B58C4DF9AF386B1DE6F5E5 /* CCTest.m in Sources */,
-				FB88C39A6FB46F7050FAE00041ABB4A5 /* CCTestController.m in Sources */,
-				5DD39023C5A73E1DB1E60A525CC7AA6F /* CCTestController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
