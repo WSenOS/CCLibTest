@@ -12,6 +12,7 @@
 
 #import "CCTest.h"
 #import "CCTestController.h"
+#import "CCTwoController.h"
 
 FOUNDATION_EXPORT double CCLibTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char CCLibTestVersionString[];

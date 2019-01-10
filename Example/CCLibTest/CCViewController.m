@@ -7,6 +7,8 @@
 //
 
 #import "CCViewController.h"
+#import "CCTest.h"
+#import "CCTestController.h"
 
 @interface CCViewController ()
 
@@ -17,7 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [CCTest thirdTest];
+    [CCTest version2dot0dot1];
+    CCTestController * vc = [[CCTestController alloc] init];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self presentViewController:vc animated:YES completion:nil];
+    });
 }
 
 - (void)didReceiveMemoryWarning

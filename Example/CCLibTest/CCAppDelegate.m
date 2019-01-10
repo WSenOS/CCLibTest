@@ -9,14 +9,12 @@
 #import "CCAppDelegate.h"
 #import "CCTest.h"
 #import "CCTestController.h"
+#import "CCTwoController.h"
 
 @implementation CCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [CCTest version2dot0dot1];
-    CCTestController * vc = [[CCTestController alloc] init];
-    self.window.rootViewController = vc; 
     return YES;
 }
 

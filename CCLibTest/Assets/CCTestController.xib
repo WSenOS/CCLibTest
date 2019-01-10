@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCTestController">
             <connections>
+                <outlet property="bottomImageView" destination="mqy-mI-FCG" id="ReG-nN-y99"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,11 +21,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aaa.png" translatesAutoresizingMaskIntoConstraints="NO" id="EJu-Qx-5lg">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bbb.png" translatesAutoresizingMaskIntoConstraints="NO" id="EJu-Qx-5lg">
                     <rect key="frame" x="0.0" y="20" width="375" height="323.5"/>
+                    <color key="backgroundColor" red="0.23529411759999999" green="0.81568627449999997" blue="0.81176470590000005" alpha="1" colorSpace="deviceRGB"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bbb.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0n-N4-iG7">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aaa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C0n-N4-iG7">
                     <rect key="frame" x="0.0" y="343.5" width="375" height="323.5"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mqy-mI-FCG">
+                    <rect key="frame" x="20" y="527" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Vsd-sl-gpx"/>
+                        <constraint firstAttribute="width" constant="100" id="zoC-bp-EAc"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,14 +44,16 @@
                 <constraint firstItem="C0n-N4-iG7" firstAttribute="height" secondItem="EJu-Qx-5lg" secondAttribute="height" id="BmO-59-dA9"/>
                 <constraint firstItem="C0n-N4-iG7" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Jrk-Cr-NzO"/>
                 <constraint firstItem="EJu-Qx-5lg" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="JwP-ve-diW"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="mqy-mI-FCG" secondAttribute="bottom" constant="40" id="Kd8-C3-2D2"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="C0n-N4-iG7" secondAttribute="trailing" id="Rd1-W6-Xwe"/>
+                <constraint firstItem="mqy-mI-FCG" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="SfK-gs-X4J"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="C0n-N4-iG7" secondAttribute="bottom" id="sC0-FM-l86"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
     </objects>
     <resources>
-        <image name="aaa.png" width="1024" height="764"/>
+        <image name="aaa.jpg" width="1024" height="764"/>
         <image name="bbb.png" width="743" height="974"/>
     </resources>
 </document>

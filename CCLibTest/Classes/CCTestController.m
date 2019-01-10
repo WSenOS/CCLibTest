@@ -7,23 +7,34 @@
 
 #import "CCTestController.h"
 
+@implementation NSBundle (wgSubBundle)
+
++ (instancetype)wg_subBundleWithBundleName:(NSString *)bundleName targetClass:(Class)targetClass{
+    //并没有拿到子bundle
+    NSBundle *bundle = [NSBundle bundleForClass:targetClass];
+    //在这个路径下找到子bundle的路径
+    NSString *path = [bundle pathForResource:bundleName ofType:@"bundle"];
+    //根据路径拿到子bundle
+    NSLog(@"ssssssssssssssss");
+    return path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
+}
+
+@end
+
 @interface CCTestController ()
+@property (weak, nonatomic) IBOutlet UIImageView *bottomImageView;
 
 @end
 
 @implementation CCTestController
 
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:[NSBundle bundleForClass:[self class]]];
-    if (self) {
-        
-    }
-    return self;
-}
-
 - (instancetype)init
 {
-    self = [super init];
+
+    //在这个路径下找到子bundle的路径
+  
+    self = [super initWithNibName:@"CCTestController" bundle:[NSBundle wg_subBundleWithBundleName:@"CCLibTest" targetClass:[self class]]];
+    NSLog(@"ssssssssssssssss");
     if (self) {
         
     }
@@ -32,7 +43,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    NSBundle * bundle = [NSBundle wg_subBundleWithBundleName:@"CCLibTest" targetClass:[self class]];
+    _bottomImageView.image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"bbb" ofType:@"png"]];
 }
 
 /*
