@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)version2dot0dot0;
 
++ (void)version2dot0dot1;
+
 @end
 
 NS_ASSUME_NONNULL_END

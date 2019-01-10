@@ -26,5 +26,8 @@
     NSLog(@"2.0版本");
 }
 
++ (void)version2dot0dot1 {
+    NSLog(@"2.1版本");
+}
 
 @end
